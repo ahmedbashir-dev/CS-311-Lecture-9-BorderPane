@@ -32,7 +32,7 @@ public class Main extends Application {
         borderPane.setBottom(buttons[1]);
         borderPane.setCenter(buttons[2]);
         borderPane.setRight(vBoxRight);
-        borderPane.setLeft(vBoxLeft);
+        borderPane.setLeft(vBoxLeft);   
 
         Scene scene = new Scene(borderPane,500,500);
         primaryStage.setTitle("BorderPane Demo");
